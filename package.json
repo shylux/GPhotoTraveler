@@ -1,0 +1,25 @@
+{
+  "name": "gphoto-traveler",
+  "version": "1.0.0",
+  "description": "GPhoto Traveler",
+  "private": true,
+  "author": "Shylux",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "serve": "node app.js",
+    "css": "npx tailwindcss -i styles.css -o ./static/styles.css --watch"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1",
+    "passport": "^0.7.0",
+    "passport-google-id-token": "^0.4.7",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.4",
+    "tailwindcss": "^3.4.4"
+  }
+}
